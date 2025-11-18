@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title> NewYork </title>  
+    <link rel="icon" href="NewYork/USA.webp" type="image/x-icon" />
+    </head>
+    <style>
+      body {
+        background-image: url("NewYork/Fondo.jpg"); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size:cover;
+        margin: 0;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+      }
+      
+      h1{
+        text-align: center;
+        font-size: 80px;
+        margin: 0;
+        padding: 20px;
+        background: rgba(0,0,0, 0.5);
+      }
+      .Newyork {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+      }
+      .Descripcion{
+        font-size: 24px;
+        text-align:justify;
+        background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+        color: #ffffff;
+        padding: 20px;
+        width: 100%;
+        /*margin: 50px auto;*/
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+      }
+      .imagelugares {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .image-box  {
+            width: 45%;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .image-box img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .image-box p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #ffffff;
+        }
+        .lugares{
+          text-align: center;
+          font-size:x-large;
+        }
+        .Deportes {
+          text-align: center;
+          font-size:x-large;
+        }
+        .Gastronomia{
+          text-align: center;
+          font-size:x-large;
+        }
+        .Cultura{
+          text-align: center;
+          font-size:x-large;
+        }
+        .D1{
+          text-align: justify;
+        }
+        .D2{
+          text-align: justify;
+        }
+        .D3{
+          text-align: justify;
+        }
+        .D4{
+          text-align: justify;
+        }
+        .navbar {
+          position: fixed; /* Hace que la barra permanezca visible al hacer scroll */
+          top: 0; /* Posiciona la barra en la parte superior */
+          width: 100%; /* Ocupar todo el ancho */
+          background-color: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
+          padding: 10px 0;
+          z-index: 1000; /* Asegura que la barra esté encima de otros elementos */
+        }
+
+        .navbar ul {
+          list-style-type: none; /* Elimina los puntos de la lista */
+          margin: 0;
+          padding: 0;
+          display: flex; /* Distribuye los elementos horizontalmente */
+          justify-content: center; /* Centra los enlaces */
+          gap: 20px; /* Espacio entre los enlaces */
+        }
+
+        .navbar li {
+          display: inline; /* Asegura que los elementos estén en línea */
+        }
+
+        .navbar a {
+          text-decoration: none; /* Elimina el subrayado de los enlaces */
+          color: #ffffff; /* Color de los enlaces */
+          font-size: 18px;
+          padding: 10px 20px; /* Espaciado interno de los enlaces */
+          transition: background-color 0.3s ease; /* Animación suave */
+        }
+
+        .navbar a:hover {
+          background-color: #444;
+          border-radius: 5px; 
+        }
+        .link{
+          color: aqua;
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="Newyork.html">New York</a></li>
+        <li><a href="Paris.html">Paris</a></li>
+        <li><a href="Tokyo.html">Tokyo</a></li>
+        <li><a href="London.html">London</a></li>
+      </ul>
+    </nav>
+    <!-- Contenido de la página -->
+    <div class="Newyork">
+      <h1>New York</h1>
+    </div> 
+    <div class="Descripcion">
+      <p>
+        Nueva York es una ciudad vibrante y dinámica, conocida por su energía inagotable y su diversidad cultural. Es un lugar donde personas de todo el mundo convergen, creando una mezcla única de idiomas, tradiciones y estilos de vida. Su atmósfera está marcada por la innovación, la creatividad y el ritmo acelerado que la define como un símbolo global de modernidad y oportunidad.
+      </p>
+      <div class="imagelugares">
+        <div class="image-box">
+          <h1 class="lugares">Lugares emblemáticos</h1>
+            <img src="NewYork/Libertad.jpg" alt="Descripción 1">
+            <b class="D1">Nueva York es un destino lleno de lugares fascinantes para explorar. Desde sus espacios verdes y tranquilos hasta su arquitectura imponente, cada rincón de la ciudad ofrece algo único. Puedes perderte en la magia de un enorme parque urbano en el corazón de la ciudad, disfrutar de impresionantes vistas desde rascacielos que dominan el horizonte, o pasear por calles llenas de luces y energía que nunca se apagan. Es también una cuna de arte y cultura, con museos que albergan tesoros de todas las épocas, y escenarios teatrales donde la creatividad brilla a diario. Además, cada barrio tiene su propio encanto, ofreciendo una experiencia diversa y multicultural en cada visita. <a class="link" href="https://www.anuevayork.com/que-hacer-nueva-york-top-20/" target="_blank"> Mas información</a>
+            </b>
+        </div>
+        <div class="image-box">
+          <h1 class="Deportes">Deportes mas practicados en New York</h1>
+            <img src="NewYork/beisbol.jpg" alt="Descripción 2">
+            <b class="D2" >En Nueva York, los deportes más practicados son el fútbol americano, el béisbol (con los Yankees y los Mets), el baloncesto (con los Knicks y Nets), el fútbol, el hockey sobre hielo, el running (destacando el Maratón de Nueva York), el tenis (con el US Open) y el ciclismo. También es popular el voleibol, especialmente en las playas y parques de la ciudad.<a class="link" href="https://www.anuevayork.com/guia-deportes-nueva-york/" target="_blank"> Mas información</a></b>
+        </div>
+        <div class="image-box">
+            <h1 class="Gastronomia">Gastronomía de New York</h1>
+            <img src="NewYork/Perrito.png" alt="Descripción 3">
+            <b class="D3">La gastronomía de Nueva York es muy diversa, reflejando su multiculturalidad. Algunos platos emblemáticos son la pizza al estilo neoyorquino, los bagels con queso crema y salmón, los hot dogs, el cheesecake, los pretzels y la comida china, especialmente los dumplings en Chinatown. También son populares los platos latinos como tacos y empanadas, la comida judía como el pastrami on rye, y los platos japoneses como el ramen y sushi. Además, los camiones de comida ofrecen una gran variedad de opciones internacionales.<a class="link" href="https://www.anuevayork.com/comidas-tipicas-de-nueva-york/" target="_blank"> Mas información</a></b>
+        </div>
+        <div class="image-box">
+            <h1 class="Cultura">Cultura en New York</h1>
+            <img src="NewYork/cultura.jpg" alt="Descripción 4">
+            <b class="D4">La cultura de Nueva York es diversa y dinámica, marcada por su mezcla étnica y su creatividad. La ciudad destaca en arte y música, con museos como el MoMA y el Met, y una rica tradición en jazz, hip-hop y punk. Broadway es el epicentro del teatro, y la ciudad ha sido cuna de escritores influyentes. Nueva York es también una capital de la moda y un referente en cine y televisión. El deporte, con equipos como los Yankees y los Knicks, forma parte esencial de su identidad, y la cultura de la calle se expresa a través del graffiti y la música urbana.<a class="link" href="https://www.lonelyplanet.es/america-del-norte-y-central/estados-unidos/nueva-york/cultura" target="_blank"> Mas información</a></b>
+        </div>
+    </div>
+</div>
+    </div>
+  </body>
+</html>

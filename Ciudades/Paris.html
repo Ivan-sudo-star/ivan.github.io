@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title> Paris </title>  
+    <link rel="icon" href="paris/Francia.jfif".png type="image/x-icon" />
+    <style>
+      body {
+        background-image: url("paris/Fondo.jpg"); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size:cover;
+        margin: 0;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+      }
+      
+      h1{
+        text-align: center;
+        font-size: 80px;
+        margin: 0;
+        padding: 20px;
+        background: rgba(0,0,0, 0.5);
+      }
+      .Newyork {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+      }
+      .Descripcion{
+        font-size: 24px;
+        text-align:justify;
+        background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+        color: #ffffff;
+        padding: 20px;
+        width: 100%;
+        /*margin: 50px auto;*/
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+      }
+      .imagelugares {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .image-box  {
+            width: 45%;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .image-box img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .image-box p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #ffffff;
+        }
+        .lugares{
+          text-align: center;
+          font-size:x-large;
+        }
+        .Deportes {
+          text-align: center;
+          font-size:x-large;
+        }
+        .Gastronomia{
+          text-align: center;
+          font-size:x-large;
+        }
+        .Cultura{
+          text-align: center;
+          font-size:x-large;
+        }
+        .D1{
+          text-align: justify;
+        }
+        .D2{
+          text-align: justify;
+        }
+        .D3{
+          text-align: justify;
+        }
+        .D4{
+          text-align: justify;
+        }
+        .navbar {
+  position: fixed; /* Hace que la barra permanezca visible al hacer scroll */
+  top: 0; /* Posiciona la barra en la parte superior */
+  width: 100%; /* Ocupar todo el ancho */
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
+  padding: 10px 0;
+  z-index: 1000; /* Asegura que la barra esté encima de otros elementos */
+}
+
+.navbar ul {
+  list-style-type: none; /* Elimina los puntos de la lista */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Distribuye los elementos horizontalmente */
+  justify-content: center; /* Centra los enlaces */
+  gap: 20px; /* Espacio entre los enlaces */
+}
+
+.navbar li {
+  display: inline; /* Asegura que los elementos estén en línea */
+}
+
+.navbar a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: #ffffff; /* Color de los enlaces */
+  font-size: 18px;
+  padding: 10px 20px; /* Espaciado interno de los enlaces */
+  transition: background-color 0.3s ease; /* Animación suave */
+}
+
+.navbar a:hover {
+  background-color: #444; /* Fondo al pasar el cursor */
+  border-radius: 5px; /* Opcional: redondeo al hover */
+}
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="Newyork.html">New York</a></li>
+        <li><a href="Paris.html">Paris</a></li>
+        <li><a href="Tokyo.html">Tokyo</a></li>
+        <li><a href="London.html">London</a></li>
+      </ul>
+    </nav>
+    <!-- Contenido de la página -->
+    <div class="Newyork">
+      <h1>Paris</h1>
+    </div> 
+    <div class="Descripcion">
+      <p>
+        París, conocida como la "Ciudad de la Luz", es la capital de Francia y un símbolo mundial de cultura, arte y romance. Famosa por monumentos icónicos como la Torre Eiffel, el Museo del Louvre y la Catedral de Notre Dame, también destaca por sus encantadoras calles, cafés históricos y el río Sena que la atraviesa. Es un centro global de moda y gastronomía, donde la cocina francesa brilla con sus baguettes, croissants y vinos. Su rica historia y su atmósfera única la convierten en un destino imprescindible para millones de visitantes cada año.
+      </p>
+      <div class="imagelugares">
+        <div class="image-box">
+          <h1 class="lugares">Lugares emblemáticos</h1>
+            <img src="paris/Lugares.jpg" alt="Descripción 1">
+            <b class="D1">París, la "Ciudad de la Luz", ofrece maravillas icónicas como la Torre Eiffel, el Museo del Louvre, y la Catedral de Notre Dame. En Montmartre, disfruta de sus calles bohemias y la Basílica del Sagrado Corazón. Pasea por los Campos Elíseos hasta el Arco del Triunfo o visita el majestuoso Palacio de Versalles. Explora el vibrante Barrio Latino y el Panteón, y maravíllate con los vitrales de la Sainte-Chapelle. Descubre arte en el Museo de Orsay y relájate en los Jardines de Luxemburgo. Un paseo por el río Sena completa la experiencia de esta ciudad romántica e histórica. <a href="https://www.civitatis.com/es/paris?aid=100&cmp=es_ES_Nonbrand&cmpint=_Destinos_Francia_DSA&gad_source=1&gclid=Cj0KCQiAouG5BhDBARIsAOc08RQi2KuYsqmwjMart9gIRFqJG9QGPL7Cj1OqlspSgVdiXHzhpIdTen0aAncuEALw_wcB&gclsrc=aw.ds" target="_blank"> Mas información</a>
+            </b>
+        </div>
+        <div class="image-box">
+          <h1 class="Deportes">Deportes mas practicados en París</h1>
+            <img src="paris/Deportes.jpg" alt="Descripción 2">
+            <b class="D2" >En París, los deportes más populares incluyen el fútbol, con equipos icónicos como el Paris Saint-Germain (PSG); el rugby, especialmente con la selección francesa y clubes como Stade Français; y el tenis, destacando el torneo Roland Garros. También se practican mucho el ciclismo, con eventos como el Tour de Francia terminando en los Campos Elíseos, y el baloncesto, con una creciente popularidad. Otros deportes como la natación, el running, y el patinaje son comunes, especialmente en los parques y espacios públicos. París tiene una rica tradición deportiva, impulsada por su infraestructura y eventos internacionales.<a href="https://parisjetaime.com/spa/articulo/hit-parade-de-los-deportes-en-paris-a046" target="_blank"> Mas información</a></b>
+        </div>
+        <div class="image-box">
+            <h1 class="Gastronomia">Gastronomía de París</h1>
+            <img src="paris/Gastronomía.jpg" alt="Descripción 3">
+            <b class="D3">La gastronomía de París es un símbolo de la excelencia culinaria francesa. Entre los platos más icónicos están el croissant, el pain au chocolat, el bœuf bourguignon, la sopa de cebolla gratinada y el quiche lorraine, acompañados de quesos como camembert, brie y roquefort con una baguette crujiente. Los postres incluyen delicias como macarons, crème brûlée y tarta tatin, junto con el café parisino y vinos de renombre. Además, París ofrece una vibrante escena multicultural, con influencias internacionales que enriquecen su cocina, desde crepes hasta sabores asiáticos y norteafricanos.<a href="https://www.paris.es/donde-comer" target="_blank"> Mas información</a></b>
+        </div>
+        <div class="image-box">
+            <h1 class="Cultura">Cultura en París</h1>
+            <img src="paris/Cultura.webp" alt="Descripción 4">
+            <b class="D4">La cultura de París es rica, diversa e influyente, siendo un epicentro mundial de arte, teatro, música, cine y moda. Con museos emblemáticos como el Louvre y el Museo de Orsay, y teatros como el Palacio Garnier, la ciudad es un referente cultural global. París también es cuna de grandes escritores y cineastas, desde Victor Hugo hasta la Nouvelle Vague. La moda y el diseño son pilares fundamentales, con la ciudad siendo la capital mundial de la alta costura. Su arquitectura abarca desde el gótico de Notre Dame hasta lo contemporáneo del Centro Pompidou, mientras que los cafés y bistrós reflejan una vibrante tradición de creatividad y debate.<a href="https://www.lonelyplanet.es/europa/francia/paris/cultura" target="_blank"> Mas información</a></b>
+        </div>
+    </div>
+</div>
+    </div>
+  </body>
+</html>

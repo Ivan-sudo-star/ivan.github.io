@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trabajo final</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #ffebd1;
+      }
+
+      .Titol {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2em;
+        color: black;
+      }
+
+      .Contenido {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+        width: 90%;
+        max-width: 1200px;
+        border: 5px solid black;
+        padding: 20px;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        background-color: #fff5e7;
+        border-radius: 5px;
+      }
+
+      img {
+        width: 20vw;
+        max-width: 250px;
+        height: 175px;
+        max-height: 250px;
+        transition: transform 0.3s ease;
+      }
+      img:hover{
+        transform: scale(1.2);
+      }
+      .Tiulos{
+        justify-content: space-around;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="Titol">Práctica final Ofimática</h1>
+    <div class="Contenido">
+      <div class="Pagina_aviones">
+        <h1 class="Titulos">Página Avioncitos</h1>
+        <a href="Aviones/Avioncitos.html" target="_blank">
+          <img src="Fotos_paginas/b22-removebg-preview.png" alt="Aviones">
+        </a>
+      </div>
+      <div class="Pagina_ciudades">
+        <h1 class="Titulos">Página Ciudades</h1>
+        <a href="Ciudades/Newyork.html" target="_blank">
+          <img src="Fotos_paginas/Tokio.jpg" alt="Tokio">
+        </a>
+      </div>
+      <div class="Pagina_form">
+        <h1 class="Titulos">Página Formulario</h1>
+        <a href="form/Form.html" target="_blank">
+          <img src="Fotos_paginas/Formulario.jpg" alt="Formulario">
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

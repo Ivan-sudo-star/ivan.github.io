@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title> London</title>  
+    <link rel="icon" href="London/inglaterra.jpg" type="image/x-icon" />
+    <style>
+      body {
+        background-image: url("London/Fondo.jfif"); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size:cover;
+        margin: 0;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+      }
+      
+      h1{
+        text-align: center;
+        font-size: 80px;
+        margin: 0;
+        padding: 20px;
+        background: rgba(0,0,0, 0.5);
+      }
+      .Newyork {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+      }
+      .Descripcion{
+        font-size: 24px;
+        text-align:justify;
+        background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+        color: #ffffff;
+        padding: 20px;
+        width: 100%;
+        /*margin: 50px auto;*/
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+      }
+      .imagelugares {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .image-box  {
+            width: 45%;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .image-box img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .image-box p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #ffffff;
+        }
+        .lugares{
+          text-align: center;
+          font-size:x-large;
+        }
+        .Deportes {
+          text-align: center;
+          font-size:x-large;
+        }
+        .Gastronomia{
+          text-align: center;
+          font-size:x-large;
+        }
+        .Cultura{
+          text-align: center;
+          font-size:x-large;
+        }
+        .D1{
+          text-align: justify;
+        }
+        .D2{
+          text-align: justify;
+        }
+        .D3{
+          text-align: justify;
+        }
+        .D4{
+          text-align: justify;
+        }
+        .navbar {
+  position: fixed; /* Hace que la barra permanezca visible al hacer scroll */
+  top: 0; /* Posiciona la barra en la parte superior */
+  width: 100%; /* Ocupar todo el ancho */
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
+  padding: 10px 0;
+  z-index: 1000; /* Asegura que la barra esté encima de otros elementos */
+}
+
+.navbar ul {
+  list-style-type: none; /* Elimina los puntos de la lista */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Distribuye los elementos horizontalmente */
+  justify-content: center; /* Centra los enlaces */
+  gap: 20px; /* Espacio entre los enlaces */
+}
+
+.navbar li {
+  display: inline; /* Asegura que los elementos estén en línea */
+}
+
+.navbar a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: #ffffff; /* Color de los enlaces */
+  font-size: 18px;
+  padding: 10px 20px; /* Espaciado interno de los enlaces */
+  transition: background-color 0.3s ease; /* Animación suave */
+}
+
+.navbar a:hover {
+  background-color: #444; /* Fondo al pasar el cursor */
+  border-radius: 5px; /* Opcional: redondeo al hover */
+}
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="Newyork.html">New York</a></li>
+        <li><a href="Paris.html">Paris</a></li>
+        <li><a href="Tokyo.html">Tokyo</a></li>
+        <li><a href="London.html">London</a></li>
+      </ul>
+    </nav>
+    <!-- Contenido de la página -->
+    <div class="Newyork">
+      <h1>London</h1>
+    </div> 
+    <div class="Descripcion">
+      <p>
+        Londres es la capital del Reino Unido, conocida por su rica historia, diversidad cultural y su influencia global en finanzas, arte y moda. La ciudad combina monumentos históricos como el Big Ben con arquitectura moderna como el Shard. Es un centro cultural con teatros, museos como el Museo Británico y la Galería Nacional, y una gastronomía multicultural. Además, ofrece espacios verdes como Hyde Park y es un importante destino deportivo con eventos como Wimbledon. En resumen, Londres es una ciudad dinámica y vibrante, llena de historia y modernidad.
+      </p>
+      <div class="imagelugares">
+        <div class="image-box">
+          <h1 class="lugares">Lugares emblemáticos</h1>
+            <img src="London/Lugares.png" alt="Descripción 1">
+            <b class="D1">Londres es hogar de numerosos lugares emblemáticos, como el Palacio de Buckingham, el Big Ben, la Torre de Londres, y la Catedral de San Pablo. También destacan el London Eye, el Puente de la Torre, el Museo Británico y la National Gallery. Otros lugares importantes incluyen Westminster Abbey y el animado barrio de Covent Garden. Estos sitios representan la rica historia y la vibrante vida urbana de la ciudad. <a href="https://www.viajeroscallejeros.com/lugares-que-visitar-londres/" target="_blank"> Mas información</a>
+            </b>
+        </div>
+        <div class="image-box">
+          <h1 class="Deportes">Deportes mas practicados en London</h1>
+            <img src="London/Deportes.jpg" alt="Descripción 2">
+            <b class="D2" >Londres es un centro deportivo importante con una rica tradición. Es hogar de equipos de fútbol como el Arsenal y el Chelsea, y de eventos como el Wimbledon Tennis Championships y el Maratón de Londres. También es conocida por el rugby, el cricket y el atletismo, con instalaciones como el Lord's Cricket Ground y el Estadio Olímpico. Londres ofrece una amplia gama de deportes, incluyendo ciclismo, remo y piragüismo en el río Támesis.<a href="https://www.londonbackpackers.com/es/guide-to-london/sport-guide/" target="_blank"> Mas información</a></b>
+        </div>
+        <div class="image-box">
+            <h1 class="Gastronomia">Gastronomía de London</h1>
+            <img src="London/Gastronomía.avif" alt="Descripción 3">
+            <b class="D3">La gastronomía de Londres es diversa y multicultural. Entre los platos tradicionales británicos se encuentran el fish and chips y el Sunday roast. La ciudad también ofrece una amplia variedad de cocinas internacionales, con barrios como Chinatown para comida china y Brick Lane para comida india. Los mercados de comida como el Mercado de Borough son populares por su variedad de platos frescos, y el afternoon tea es una tradición británica destacada. En resumen, Londres combina lo mejor de la cocina británica con influencias globales.<a href="https://www.viajarlondres.com/gastronomia-londres.php" target="_blank"> Mas información</a></b>
+        </div>
+        <div class="image-box">
+            <h1 class="Cultura">Cultura en London</h1>
+            <img src="London/Cultura.jpg" alt="Descripción 4">
+            <b class="D4">La cultura de Londres es una mezcla vibrante de historia, arte, música y diversidad. La ciudad alberga monumentos icónicos como el Big Ben y la Torre de Londres, y es un centro artístico con el West End, museos como el Museo Británico y una rica tradición literaria. Londres es también un referente musical, cuna de bandas legendarias, y un destino de moda con eventos como London Fashion Week. Su multiculturalismo se refleja en barrios como Chinatown y su variada gastronomía. Además, es una ciudad deportiva con equipos como Arsenal y eventos como Wimbledon.<a href="https://www.lonelyplanet.es/europa/inglaterra/londres/cultura" target="_blank"> Mas información</a></b>
+        </div>
+    </div>
+</div>
+    </div>
+  </body>
+</html>
